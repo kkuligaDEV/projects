@@ -7,5 +7,7 @@ public class GameTest {
         Cohort wrog = new Cohort("Gauls",true);
         System.out.println(oddzial);
         System.out.println(wrog);
+        Battle battle = new Battle(oddzial,wrog);
+        battle.battle();
     }
 }
